@@ -25,10 +25,4 @@ export const MenuItems = [
         url: '#/contact',
         cName: 'nav-links',
     },
-    {
-        title: 'Subscribe',
-        url: '#/contact',
-        cName: 'nav-links-mobile',
-    },
-
 ]
