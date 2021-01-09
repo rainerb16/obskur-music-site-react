@@ -7,13 +7,11 @@
     justify-content: center;
     align-items: center;
     color: rgb(179, 255, 0);
-    list-style-type: none;
 }
 
 .navbar-logo {
     justify-self: start;
     margin-left: 20px;
-    cursor: pointer;
 }
 
 .nav-menu {
@@ -65,29 +63,30 @@
         position: fixed;
         top: 125px;
         right: -100%;
-        opacity: 1;
+        opacity: 0;
         transition: all 0.3s ease;
         background:  rgb(0, 0, 0);
         text-align: center;
-        transform: translateX(0);
+        transform: translateX(25%);
     }
 
     .nav-menu.active {
         background:  rgb(0, 0, 0);
         right: 0;
         opacity: 1;
-        transition: all 0.3s ease;
-        width: 50%;
+        transition: all 0.5s ease;
+        width: 75%;
         text-align: center;
     }
 
     .nav-menu.active > li {
-        border-bottom: 0.5px solid rgb(179, 255, 0);
+        border-bottom: 0.5px solid #fff;;
     }
 
     .nav-links {
         display: table;
         text-align: center;
+        color: #fff;
     }
 
     .nav-links:hover {

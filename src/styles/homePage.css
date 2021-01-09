@@ -1,0 +1,18 @@
+/* MOBILE SCREEN */
+.dual-image {
+    object-fit: cover;
+    width: 75%;
+    margin-left: 25%;
+    display: flex;
+    position: absolute;
+    padding: 10px;
+    margin-top: 2vh;
+}
+
+.top-content > h4 {
+	color: #000;
+	text-align: justify;
+	padding: 15px;
+	background-color: rgb(179, 255, 0);
+	margin: 5vh 7vh 0 1.5vh;
+}

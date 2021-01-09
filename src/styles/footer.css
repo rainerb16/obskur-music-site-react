@@ -1,0 +1,12 @@
+i {
+    color: #fff;
+    font-size: 26px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
