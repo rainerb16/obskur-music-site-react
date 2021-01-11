@@ -13,6 +13,7 @@ function HomePage() {
 
 	return (
 		<div>
+            <hr />
 			<div className="footer-container">
                 <a href={links.facebook} target="_blank"><i class="fab fa-facebook-f" /></a>
                 <a href={links.instagram} target="_blank"><i class="fab fa-instagram" /></a>

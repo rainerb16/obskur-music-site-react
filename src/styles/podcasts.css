@@ -1,13 +1,13 @@
 .podcast-content > h2 {
-    color: #fff;
-    margin-top: 45vh;
+    color: #000;
+    margin-top: 40vh;
     margin-bottom: 2vh;
     text-align: center;
     position: relative;
 }
 
 .podcast-content {
-    color: #fff;
+    color: #000;
     margin: 2vh 2vh 3vh 2vh;
     text-align: justify;
 }

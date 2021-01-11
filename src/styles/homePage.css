@@ -1,18 +1,29 @@
 /* MOBILE SCREEN */
+.home-content {
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 5vh;
+	text-align: center;
+	letter-spacing: 5px;
+	margin-bottom: 5vh;
+}
+
 .dual-image {
     object-fit: cover;
     width: 75%;
-    margin-left: 25%;
+    margin-left: 20%;
     display: flex;
     position: absolute;
-    padding: 10px;
+    border: 1px solid #000;
     margin-top: 2vh;
+    box-shadow: 3px 5px #000;
 }
 
 .top-content > h4 {
 	color: #000;
 	text-align: justify;
-	padding: 15px;
-	background-color: rgb(179, 255, 0);
+    padding: 15px;
+    border: 1px solid #000;
+	box-shadow: 3px 5px #000;
 	margin: 5vh 7vh 0 1.5vh;
 }

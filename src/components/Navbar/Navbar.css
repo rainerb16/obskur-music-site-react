@@ -1,12 +1,12 @@
 .NavbarItems {
     /* background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(96, 110, 62) 100%); */
-    background: #000;
-    height: 125px;
+    background: #fff;
+    height: 110px;
     font-size: 1.2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(179, 255, 0);
+    color: #000;
 }
 
 .navbar-logo {
@@ -24,7 +24,7 @@
 }
 
 .nav-links {
-    color: rgb(179, 255, 0);
+    color: #000;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -38,7 +38,7 @@
 }
 
 .fa-bars {
-    color: #fff;
+    color: #000;
 }
 
 .nav-links-mobile {
@@ -80,13 +80,13 @@
     }
 
     .nav-menu.active > li {
-        border-bottom: 0.5px solid #fff;;
+        border-bottom: 0.5px solid #000;;
     }
 
     .nav-links {
         display: table;
         text-align: center;
-        color: #fff;
+        color: #000;
     }
 
     .nav-links:hover {
@@ -110,7 +110,7 @@
         transform: translate(-100%, 60%);
         font-size: 1.5rem;
         cursor: pointer;
-        color: #fff;
+        color: #000;
     }
 
     .nav-links-mobile:hover {
