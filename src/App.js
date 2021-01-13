@@ -6,7 +6,6 @@ import About from './pages/About';
 import Radio from './pages/Radio';
 import Artists from './pages/Artists';
 import Contact from './pages/Contact';
-import Footer from './components/Footer';
 
 function App() {
 	return (

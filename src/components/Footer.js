@@ -21,6 +21,7 @@ function HomePage() {
                 <a href={links.soundcloud} target="_blank"><i class="fab fa-soundcloud" /></a>
                 <a href={links.youtube} target="_blank"><i class="fab fa-youtube" /></a>
 			</div>
+            <p className="copyright">2021 OBSKUR MUSIC</p>
 		</div>
 	);
 }

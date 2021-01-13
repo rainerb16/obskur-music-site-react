@@ -8,6 +8,10 @@
 	margin-bottom: 5vh;
 }
 
+.title {
+    text-shadow: 1px 3px rgb(139, 139, 139);
+}
+
 .dual-image {
     object-fit: cover;
     width: 75%;

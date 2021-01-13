@@ -1,0 +1,25 @@
+/* mobile */
+
+.about-title {
+    text-align: center;
+    margin-top: 5vh;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 25%;
+    margin-left: 37.5%;
+}
+
+.content {
+    width: 80%;
+    margin-left: 10%;
+    text-align: justify;
+    margin-top: 10px;
+    line-height: 23px;
+}
+
+.founders-grid {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin-top: 10vh;
+}
