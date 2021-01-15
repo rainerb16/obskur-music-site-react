@@ -6,7 +6,7 @@ import '../styles/founders.css';
 
 function Em() {
 	return (
-		<div className="founders-container">
+		<div className="founders-container-em animate__animated animate__fadeInLeft animate__delay-2s">
             <h3 className="em-title">EMERENCZ / NOMAD BLACK</h3>
             <div className="founders-socials">
                 <a href="http://facebook.com/nomadblack" target= "_blank"><p>Facebook</p></a>

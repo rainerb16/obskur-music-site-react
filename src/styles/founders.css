@@ -20,10 +20,18 @@ a:visited {
     color: #000;
 }
 
-.founders-container {
+.founders-container-kloves {
     display: grid;
     align-items: center;
     justify-items: center;
+    margin-bottom: 5vh;
+}
+
+.founders-container-em {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 30vh;
 }
 
 .kloves-title, .em-title {

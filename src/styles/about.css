@@ -2,7 +2,10 @@
 
 .about-title {
     text-align: center;
+    align-items: center;
+    justify-items: center;
     margin-top: 5vh;
+    margin-bottom: 5vh;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
     width: 25%;
