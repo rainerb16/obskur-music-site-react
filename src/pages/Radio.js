@@ -1,10 +1,12 @@
 import React from 'react';
-
+import Footer from '../components/Footer'
+import RadioContent from '../components/RadioContent'
 
 function Radio() {
 	return (
 		<div className="App">
-			<h1>Radio</h1>
+			<RadioContent />
+			<Footer />
 		</div>
 	);
 }
