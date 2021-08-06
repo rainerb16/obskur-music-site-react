@@ -13,13 +13,12 @@ function HomePage() {
 
 	return (
 		<div>
-            <hr />
 			<div className="footer-container">
-                <a href={links.facebook} target="_blank"><i class="fab fa-facebook-f" /></a>
-                <a href={links.instagram} target="_blank"><i class="fab fa-instagram" /></a>
-                <a href={links.twitter} target="_blank"><i class="fab fa-twitter" /></a>
-                <a href={links.soundcloud} target="_blank"><i class="fab fa-soundcloud" /></a>
-                <a href={links.youtube} target="_blank"><i class="fab fa-youtube" /></a>
+                <a className="link" href={links.facebook} target="_blank"><i class="fab fa-facebook-f" /></a>
+                <a className="link" href={links.instagram} target="_blank"><i class="fab fa-instagram" /></a>
+                <a className="link" href={links.twitter} target="_blank"><i class="fab fa-twitter" /></a>
+                <a className="link" href={links.soundcloud} target="_blank"><i class="fab fa-soundcloud" /></a>
+                <a className="link" href={links.youtube} target="_blank"><i class="fab fa-youtube" /></a>
 			</div>
             <p className="copyright">2021 OBSKUR MUSIC</p>
 		</div>
